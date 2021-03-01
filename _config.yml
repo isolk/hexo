@@ -8,7 +8,7 @@ subtitle: 'www.yhtdev.com'
 description: '爱生活，爱运动，爱技术'
 keywords:
 author: solk
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -102,4 +102,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: 'https://github.com/isolk/isolk.github.io.git'
+  branch: master
