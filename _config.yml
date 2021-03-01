@@ -9,7 +9,7 @@ description: '爱生活，爱运动，爱技术'
 keywords:
 author: solk
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -105,3 +105,10 @@ deploy:
   type: git
   repo: 'https://github.com/isolk/isolk.github.io.git'
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
